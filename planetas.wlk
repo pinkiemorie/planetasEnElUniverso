@@ -2,6 +2,8 @@ class Planeta {
     const habitantes = #{}
     const construcciones = []
 
+    method esHabitante(unaPersona) = habitantes.contains(unaPersona)
+
     method agregarHabitante(unaPersona) {
         habitantes.add(unaPersona)
     }

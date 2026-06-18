@@ -5,8 +5,8 @@ class Muralla {
 }
 
 class Museo {
-    const superficieCubierta
-    const indiceImportancia
+    const superficie
+    const nivelImportancia
 
-    method valor() = superficieCubierta * indiceImportancia
+    method valor() = superficie * nivelImportancia
 }
